@@ -1,5 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .grid{
     display: flex;
+    justify-content: center !important;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
